@@ -1,0 +1,35 @@
+# ── Node / npm ──────────────────────────────────────────────
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ── OS / editor ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ── Env & secrets (never commit, ever) ──────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# ── Local tooling ───────────────────────────────────────────
+# gh.exe is copied into this directory purely as a maintainer
+# convenience for pushing the repo. It is deliberately NOT part
+# of the repository — nobody ships a 39 MB binary in a template repo.
+/gh.exe
+gh_*.zip
+
+# ── CLI smoke-test artifacts ────────────────────────────────
+*.bak
+out/
+.smoke/

@@ -1,0 +1,48 @@
+{
+  "name": "awesome-agents-md",
+  "version": "1.0.0",
+  "description": "🛑 Stop AI from writing garbage code — the world's most complete AGENTS.md template + zero-dependency generator CLI.",
+  "keywords": [
+    "agents-md",
+    "ai-coding",
+    "coding-agent",
+    "cursor-rules",
+    "deepseek-harness",
+    "dsh",
+    "claude-code",
+    "copilot-instructions",
+    "codex",
+    "conventional-commits",
+    "tdd",
+    "prompt-engineering",
+    "zero-dependencies",
+    "cli"
+  ],
+  "license": "Apache-2.0",
+  "author": "doujiaozh",
+  "homepage": "https://github.com/doujiaozh/awesome-agents-md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doujiaozh/awesome-agents-md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doujiaozh/awesome-agents-md/issues"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "agents-md": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "init": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
