@@ -290,3 +290,7 @@ printf 'my-app\n1\n2\n1\n2\n1\n' | node index.js
 
 > ### 写代码之前，先写规矩。
 > 如果这份契约救过你的 `main` 分支，[来一个 ⭐](../../)。
+
+## License
+
+Released under the Apache-2.0 license. See LICENSE for details.

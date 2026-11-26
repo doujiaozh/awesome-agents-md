@@ -33,3 +33,17 @@ gh_*.zip
 *.bak
 out/
 .smoke/
+desktop.ini
+*.tmp
+*.exe
+.vscode/
+*.iml
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+.npm/
+.pnpm-store/
+yarn-error.log
+*.tgz
